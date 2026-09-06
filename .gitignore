@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-xpu/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary test images
+test_samples/
+
+# Ultralytics cache
+*.cache
+
+# Dataset images and labels
+datasets/garbage_dataset/train/images/
+datasets/garbage_dataset/train/labels/
+datasets/garbage_dataset/valid/images/
+datasets/garbage_dataset/valid/labels/
+datasets/garbage_dataset/test/images/
+datasets/garbage_dataset/test/labels/
+
+# Old training runs
+runs/detect/train/
+runs/detect/train-2/
+runs/detect/train-3/
+runs/detect/train-4/
+
+yolo26n.pt
+
+# Unnecessary downloaded/test data
+datasets/coco8/
+runs/detect/predict/
